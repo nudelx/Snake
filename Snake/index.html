@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    
+	     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	     
+	     
+	     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"></link>
+	     <script type="text/javascript" src="./assets/js/jquery.min.js" ></script >
+	     <script type="text/javascript" src="./assets/js/snake.js" ></script >
+	     
+    </head>
+    <title>Snake</title>
+    <body>
+    
+       <div class="main">
+           <div class="promt">
+                    <div>
+                        <label for="number" >Input the number please:  </label>
+                        <input name="number" type="text" id="number" value=""/>
+                        <button id="go"> Go </button>
+                    </div>
+           </div>
+           <div class="result"></div>
+          
+       </div>
+       
+       <script>
+           
+       $(document).ready(function(){
+    	  
+    	   $('button#go').on('click',function(){
+    		   
+    		   Snake.init({
+    			   resultBox: 'div.result',
+    			   number: $('input#number').val(),
+    		   });
+    	   });
+    	   
+       });
+       
+       </script>
+    
+    </body>
+    
+</html>
