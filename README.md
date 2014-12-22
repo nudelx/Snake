@@ -8,4 +8,4 @@ _"you will get an integer and you have to build matrix nxn and fill it with numb
 
 So I have decided to create some animated solution with js/html just for fun :) 
 
-![screenshot] (https://raw2.github.com/nudelx/Snake/82d356e33a0127eb631f072b43735018485730cc/Snake/screens/snake.PNG)
+![screenshot] (https://raw.githubusercontent.com/nudelx/Snake/master/Snake/screens/snake.PNG)
